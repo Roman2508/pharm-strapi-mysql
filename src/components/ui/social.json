@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_ui_socials",
+  "info": {
+    "displayName": "Social",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "icons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.icon-button",
+      "required": true
+    }
+  }
+}

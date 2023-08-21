@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_pages_metas",
+  "info": {
+    "displayName": "meta",
+    "icon": "cast"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
