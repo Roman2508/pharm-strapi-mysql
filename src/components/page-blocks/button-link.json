@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_blocks_button_links",
+  "info": {
+    "displayName": "ButtonLink",
+    "icon": "server",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "component_type": {
+      "type": "string",
+      "default": "button_link",
+      "unique": false,
+      "required": true
+    }
+  }
+}

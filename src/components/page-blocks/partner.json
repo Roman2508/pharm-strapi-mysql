@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_page_blocks_partners",
+  "info": {
+    "displayName": "Partner",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "partner_link": {
+      "type": "string",
+      "required": true
+    },
+    "partner_presentation_link": {
+      "type": "string",
+      "required": false
+    },
+    "partner_category": {
+      "type": "enumeration",
+      "enum": [
+        "Аптека",
+        "Установа",
+        "Навчальний заклад"
+      ],
+      "required": true
+    }
+  }
+}

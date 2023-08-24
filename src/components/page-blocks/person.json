@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_page_blocks_people",
+  "info": {
+    "displayName": "Person",
+    "icon": "shield",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "position": {
+      "type": "string",
+      "required": false
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "component_type": {
+      "type": "string",
+      "default": "person",
+      "required": true,
+      "unique": false
+    }
+  }
+}

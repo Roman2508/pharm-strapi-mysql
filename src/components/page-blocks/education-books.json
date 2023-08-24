@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_page_blocks_education_books",
+  "info": {
+    "displayName": "EducationBooks",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "main_photo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "authors": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-blocks.accordion"
+    },
+    "component_type": {
+      "type": "string",
+      "default": "education_books",
+      "required": true,
+      "unique": false
+    }
+  }
+}

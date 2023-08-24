@@ -14,7 +14,9 @@
     "@strapi/plugin-i18n": "4.12.5",
     "@strapi/plugin-users-permissions": "4.12.5",
     "@strapi/strapi": "4.12.5",
-    "mysql": "2.18.1"
+    "editorjs-text-alignment-blocktune": "^1.0.3",
+    "mysql": "2.18.1",
+    "strapi-plugin-react-editorjs": "^2.0.2"
   },
   "author": {
     "name": "A Strapi developer"

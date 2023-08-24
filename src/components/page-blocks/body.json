@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_blocks_bodies",
+  "info": {
+    "displayName": "body",
+    "icon": "grid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "body": {
+      "type": "richtext",
+      "required": true
+    },
+    "component_type": {
+      "type": "string",
+      "default": "body",
+      "required": true,
+      "unique": false
+    }
+  }
+}
