@@ -16,7 +16,8 @@
       ]
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "component_type": {
       "type": "string",

@@ -20,6 +20,11 @@
       "required": true,
       "default": "accordion",
       "unique": false
+    },
+    "default_open": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
