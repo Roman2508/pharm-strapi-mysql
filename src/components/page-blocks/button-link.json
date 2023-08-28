@@ -16,6 +16,10 @@
       "default": "button_link",
       "unique": false,
       "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
     }
   }
 }

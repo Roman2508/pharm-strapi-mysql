@@ -12,14 +12,14 @@
       "required": true
     },
     "description": {
-      "type": "string",
-      "required": true
+      "type": "text",
+      "required": false
     },
     "meta": {
       "type": "component",
       "repeatable": true,
       "component": "pages.meta",
-      "required": true
+      "required": false
     }
   }
 }

@@ -7,33 +7,10 @@
   },
   "options": {},
   "attributes": {
-    "name": {
-      "type": "string",
-      "required": true
-    },
-    "position": {
-      "type": "string",
-      "required": false
-    },
-    "phone": {
-      "type": "string"
-    },
-    "email": {
-      "type": "email"
-    },
-    "photo": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
-    "component_type": {
-      "type": "string",
-      "default": "person",
-      "required": true,
-      "unique": false
+    "worker": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::worker.worker"
     }
   }
 }
