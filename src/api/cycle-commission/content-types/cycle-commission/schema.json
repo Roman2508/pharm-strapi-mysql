@@ -101,6 +101,11 @@
       "relation": "oneToMany",
       "target": "api::worker.worker",
       "mappedBy": "cycle_commission"
+    },
+    "headOfCommission": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::worker.worker"
     }
   }
 }
