@@ -1,28 +1,31 @@
 {
   "kind": "collectionType",
-  "collectionName": "pages",
+  "collectionName": "vidilenyas",
   "info": {
-    "singularName": "page",
-    "pluralName": "pages",
-    "displayName": "Page",
-    "description": ""
+    "singularName": "vidilenya",
+    "pluralName": "vidilenyas",
+    "displayName": "Vidilenya"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "name": {
       "type": "string",
       "required": true
     },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
     "main_photo": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     },
     "layout": {
       "type": "enumeration",
@@ -46,17 +49,10 @@
         "page-blocks.education-books",
         "page-blocks.panorams",
         "page-blocks.partners-block",
-        "page-blocks.photos-gallery",
-        "page-blocks.two-column-with-image",
         "page-blocks.person",
-        "page-blocks.page-cards"
+        "page-blocks.photos-gallery",
+        "page-blocks.two-column-with-image"
       ]
-    },
-    "page_url": {
-      "type": "string",
-      "required": true,
-      "default": "/page",
-      "unique": true
     },
     "left_sidebar": {
       "type": "dynamiczone",
@@ -70,8 +66,7 @@
         "page-blocks.partners-block",
         "page-blocks.person",
         "page-blocks.photos-gallery",
-        "page-blocks.two-column-with-image",
-        "page-blocks.page-cards"
+        "page-blocks.two-column-with-image"
       ]
     },
     "right_sidebar": {
@@ -84,17 +79,15 @@
         "page-blocks.education-books",
         "page-blocks.panorams",
         "page-blocks.partners-block",
-        "page-blocks.person",
         "page-blocks.photos-gallery",
-        "page-blocks.two-column-with-image",
-        "page-blocks.page-cards"
+        "page-blocks.person",
+        "page-blocks.two-column-with-image"
       ]
     },
     "SEO": {
       "type": "component",
       "repeatable": false,
-      "component": "pages.seo",
-      "required": true
+      "component": "pages.seo"
     }
   }
 }
