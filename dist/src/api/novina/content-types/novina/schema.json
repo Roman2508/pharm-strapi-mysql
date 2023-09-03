@@ -1,0 +1,51 @@
+{
+    "kind": "collectionType",
+    "collectionName": "novinas",
+    "info": {
+        "singularName": "novina",
+        "pluralName": "novinas",
+        "displayName": "Novina",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "body": {
+            "type": "richtext"
+        },
+        "date": {
+            "type": "date",
+            "required": true
+        },
+        "main_photo": {
+            "type": "media",
+            "multiple": false,
+            "required": true,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "collage_photos": {
+            "type": "media",
+            "multiple": true,
+            "required": false,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "video_url": {
+            "type": "string"
+        },
+        "news_tags": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::news-tag.news-tag"
+        }
+    }
+}

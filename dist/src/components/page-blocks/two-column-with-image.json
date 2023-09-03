@@ -1,0 +1,38 @@
+{
+    "collectionName": "components_page_blocks_two_column_with_images",
+    "info": {
+        "displayName": "TwoColumnWithImage",
+        "icon": "dashboard",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "body": {
+            "type": "richtext",
+            "required": true
+        },
+        "image": {
+            "type": "media",
+            "multiple": false,
+            "required": true,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "layout": {
+            "type": "enumeration",
+            "enum": [
+                "text-image",
+                "image-text"
+            ],
+            "default": "text-image",
+            "required": true
+        },
+        "component_type": {
+            "type": "string",
+            "default": "two_col_with_image",
+            "required": true,
+            "unique": false
+        }
+    }
+}

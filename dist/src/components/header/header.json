@@ -1,0 +1,51 @@
+{
+    "collectionName": "components_header_headers",
+    "info": {
+        "displayName": "Header",
+        "icon": "dashboard"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "logo": {
+            "allowedTypes": ["images"],
+            "type": "media",
+            "multiple": false,
+            "required": true
+        },
+        "background": {
+            "allowedTypes": ["images", "videos"],
+            "type": "media",
+            "multiple": false,
+            "required": true
+        },
+        "primaryVideoPoster": {
+            "allowedTypes": ["images"],
+            "type": "media",
+            "multiple": false
+        },
+        "secondaryVideoPoster": {
+            "allowedTypes": ["images"],
+            "type": "media",
+            "multiple": false
+        },
+        "navigation": {
+            "type": "component",
+            "repeatable": true,
+            "component": "header.submenu1"
+        },
+        "headerIcons": {
+            "type": "component",
+            "repeatable": true,
+            "component": "ui.icon-button"
+        },
+        "social": {
+            "type": "component",
+            "repeatable": false,
+            "component": "ui.social"
+        }
+    }
+}

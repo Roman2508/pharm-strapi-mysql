@@ -1,0 +1,30 @@
+{
+    "collectionName": "components_page_blocks_accordions",
+    "info": {
+        "displayName": "Accordion",
+        "icon": "filter",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "body": {
+            "type": "richtext",
+            "required": true
+        },
+        "component_type": {
+            "type": "string",
+            "required": true,
+            "default": "accordion",
+            "unique": false
+        },
+        "default_open": {
+            "type": "boolean",
+            "default": false,
+            "required": true
+        }
+    }
+}

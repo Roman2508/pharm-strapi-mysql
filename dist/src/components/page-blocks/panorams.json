@@ -1,0 +1,32 @@
+{
+    "collectionName": "components_page_blocks_panorams",
+    "info": {
+        "displayName": "Panorams",
+        "icon": "layout",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "Panorams": {
+            "type": "component",
+            "repeatable": true,
+            "component": "page-blocks.panorama",
+            "required": true
+        },
+        "withBackground": {
+            "type": "boolean",
+            "default": true,
+            "required": true
+        },
+        "component_type": {
+            "type": "string",
+            "default": "panoramas",
+            "required": true,
+            "unique": false
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "kind": "collectionType",
+    "collectionName": "advertisements",
+    "info": {
+        "singularName": "advertisement",
+        "pluralName": "advertisements",
+        "displayName": "Advertisement"
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "body": {
+            "type": "richtext",
+            "required": true
+        }
+    }
+}

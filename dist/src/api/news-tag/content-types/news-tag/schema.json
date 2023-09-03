@@ -1,0 +1,20 @@
+{
+    "kind": "collectionType",
+    "collectionName": "news_tags",
+    "info": {
+        "singularName": "news-tag",
+        "pluralName": "news-tags",
+        "displayName": "NewsTag"
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true,
+            "unique": true
+        }
+    }
+}

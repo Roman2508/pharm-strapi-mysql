@@ -1,0 +1,103 @@
+{
+    "kind": "collectionType",
+    "collectionName": "subdivisions",
+    "info": {
+        "singularName": "subdivision",
+        "pluralName": "subdivisions",
+        "displayName": "Subdivision",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "slug": {
+            "type": "uid",
+            "targetField": "name",
+            "required": true
+        },
+        "main_photo": {
+            "type": "media",
+            "multiple": false,
+            "required": true,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "page_url": {
+            "type": "string",
+            "required": true,
+            "unique": true,
+            "default": "/page"
+        },
+        "layout": {
+            "type": "enumeration",
+            "enum": [
+                "col-1-8-3",
+                "col-2-7-3",
+                "col-8-4",
+                "col-9-3",
+                "col-12"
+            ],
+            "default": "col-12",
+            "required": true
+        },
+        "page_components": {
+            "type": "dynamiczone",
+            "components": [
+                "page-blocks.accordion",
+                "page-blocks.body",
+                "page-blocks.button-images",
+                "page-blocks.button-link",
+                "page-blocks.education-books",
+                "page-blocks.panorams",
+                "page-blocks.partners-block",
+                "page-blocks.person",
+                "page-blocks.photos-gallery",
+                "page-blocks.two-column-with-image"
+            ]
+        },
+        "left_sidebar": {
+            "type": "dynamiczone",
+            "components": [
+                "page-blocks.accordion",
+                "page-blocks.body",
+                "page-blocks.button-images",
+                "page-blocks.button-link",
+                "page-blocks.education-books",
+                "page-blocks.panorams",
+                "page-blocks.partners-block",
+                "page-blocks.person",
+                "page-blocks.photos-gallery",
+                "page-blocks.two-column-with-image"
+            ]
+        },
+        "right_sidebar": {
+            "type": "dynamiczone",
+            "components": [
+                "page-blocks.accordion",
+                "page-blocks.body",
+                "page-blocks.button-images",
+                "page-blocks.button-link",
+                "page-blocks.education-books",
+                "page-blocks.panorams",
+                "page-blocks.partners-block",
+                "page-blocks.person",
+                "page-blocks.photos-gallery",
+                "page-blocks.two-column-with-image"
+            ],
+            "required": false
+        },
+        "SEO": {
+            "type": "component",
+            "repeatable": false,
+            "component": "pages.seo",
+            "required": true
+        }
+    }
+}

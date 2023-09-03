@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_page_blocks_people",
+    "info": {
+        "displayName": "Person",
+        "icon": "shield",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "worker": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::worker.worker"
+        },
+        "component_type": {
+            "type": "string",
+            "required": true,
+            "default": "person"
+        }
+    }
+}

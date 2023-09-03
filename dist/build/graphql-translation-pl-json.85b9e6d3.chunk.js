@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpharm_strapi_mysql=self.webpackChunkpharm_strapi_mysql||[]).push([[3382],{71097:p=>{p.exports=JSON.parse('{"plugin.description.long":"Dodaje GraphQL endpoint z domy\u015Blnymi metodami API.","plugin.description.short":"Dodaje GraphQL endpoint z domy\u015Blnymi metodami API.","plugin.name":"GraphQL"}')}}]);

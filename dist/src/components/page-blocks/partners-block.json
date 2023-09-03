@@ -1,0 +1,23 @@
+{
+    "collectionName": "components_page_blocks_partners_blocks",
+    "info": {
+        "displayName": "PartnersBlock",
+        "icon": "store",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "Partners": {
+            "type": "component",
+            "repeatable": true,
+            "component": "page-blocks.partner",
+            "required": true
+        },
+        "component_type": {
+            "type": "string",
+            "default": "partners",
+            "required": true,
+            "unique": false
+        }
+    }
+}

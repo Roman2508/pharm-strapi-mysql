@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_page_blocks_page_cards_list",
+    "info": {
+        "displayName": "PageCards",
+        "icon": "layer",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "cards": {
+            "type": "component",
+            "repeatable": true,
+            "component": "page-blocks.page-card"
+        },
+        "component_type": {
+            "type": "string",
+            "required": true,
+            "default": "page_cards"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_page_blocks_button_images",
+    "info": {
+        "displayName": "ButtonImage",
+        "icon": "picture"
+    },
+    "options": {},
+    "attributes": {
+        "link": {
+            "type": "string",
+            "required": true
+        },
+        "image": {
+            "allowedTypes": [
+                "images"
+            ],
+            "type": "media",
+            "multiple": false,
+            "required": true
+        }
+    }
+}

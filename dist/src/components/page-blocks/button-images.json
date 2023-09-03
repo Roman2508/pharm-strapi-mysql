@@ -1,0 +1,23 @@
+{
+    "collectionName": "components_page_blocks_button_images-block",
+    "info": {
+        "displayName": "ButtonImages",
+        "icon": "picture",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "Components": {
+            "type": "component",
+            "repeatable": true,
+            "component": "page-blocks.button-image",
+            "required": true
+        },
+        "component_type": {
+            "type": "string",
+            "required": true,
+            "default": "button_images",
+            "unique": false
+        }
+    }
+}

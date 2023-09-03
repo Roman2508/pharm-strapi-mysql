@@ -1,0 +1,25 @@
+{
+    "collectionName": "components_pages_seos",
+    "info": {
+        "displayName": "SEO",
+        "icon": "cube",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "text",
+            "required": false
+        },
+        "meta": {
+            "type": "component",
+            "repeatable": true,
+            "component": "pages.meta",
+            "required": false
+        }
+    }
+}

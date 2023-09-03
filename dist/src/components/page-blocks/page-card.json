@@ -1,0 +1,27 @@
+{
+    "collectionName": "components_page_blocks_page_cards",
+    "info": {
+        "displayName": "pageCard",
+        "icon": "layout"
+    },
+    "options": {},
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "photo": {
+            "allowedTypes": [
+                "images"
+            ],
+            "type": "media",
+            "multiple": false,
+            "required": true
+        },
+        "link": {
+            "type": "string",
+            "required": true,
+            "default": "/"
+        }
+    }
+}

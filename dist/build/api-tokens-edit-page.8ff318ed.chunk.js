@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpharm_strapi_mysql=self.webpackChunkpharm_strapi_mysql||[]).push([[92],{50955:(l,s,t)=>{t.r(s),t.d(s,{default:()=>r});var e=t(67294),_=t(80120),E=t(86706),n=t(36364),a=t(92458);const r=()=>{const P=(0,E.v9)(n._);return e.createElement(_.O4,{permissions:P.settings["api-tokens"].read},e.createElement(a.Z,null))}}}]);

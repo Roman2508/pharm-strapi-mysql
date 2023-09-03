@@ -1,0 +1,99 @@
+{
+    "kind": "collectionType",
+    "collectionName": "workers",
+    "info": {
+        "singularName": "worker",
+        "pluralName": "workers",
+        "displayName": "Worker",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "category": {
+            "type": "enumeration",
+            "enum": [
+                "teacher",
+                "staff"
+            ],
+            "required": true,
+            "default": "teacher"
+        },
+        "photo": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "email": {
+            "type": "email"
+        },
+        "phone": {
+            "type": "string"
+        },
+        "slug": {
+            "type": "uid",
+            "targetField": "name"
+        },
+        "is_administration": {
+            "type": "boolean",
+            "default": false,
+            "required": true
+        },
+        "position": {
+            "type": "string"
+        },
+        "additional_information": {
+            "type": "richtext"
+        },
+        "printed_works": {
+            "type": "richtext"
+        },
+        "calendar_id": {
+            "type": "string"
+        },
+        "cycle_commission": {
+            "type": "relation",
+            "relation": "manyToOne",
+            "target": "api::cycle-commission.cycle-commission",
+            "inversedBy": "workers"
+        },
+        "subdivision": {
+            "type": "enumeration",
+            "enum": [
+                "Бібліотека",
+                "Бухгалтерія",
+                "Виховна робота",
+                "Запобігання булінгу",
+                "Моніторинг якості освіти",
+                "Музей коледжу",
+                "Навчальний відділ",
+                "Первинна профспілкова організація співробітників",
+                "Психологічна служба",
+                "Цивільний захист"
+            ]
+        },
+        "status": {
+            "type": "string",
+            "required": true
+        },
+        "lessons": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::lesson.lesson"
+        },
+        "weight": {
+            "required": true,
+            "type": "integer",
+            "default": 1
+        }
+    }
+}
