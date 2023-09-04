@@ -1,0 +1,59 @@
+{
+    "kind": "collectionType",
+    "collectionName": "groups",
+    "info": {
+        "singularName": "group",
+        "pluralName": "groups",
+        "displayName": "Group",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": true,
+            "unique": true
+        },
+        "vidilenya": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::vidilenya.vidilenya"
+        },
+        "specialty": {
+            "type": "enumeration",
+            "enum": [
+                "Фармація, промислова фармація 226",
+                "Технології медичної діагностики та лікування 224"
+            ],
+            "required": true,
+            "default": "Фармація, промислова фармація 226"
+        },
+        "educationalDegree": {
+            "type": "enumeration",
+            "enum": [
+                "ОПС Фаховий молодший бакалавр (на базі 9 класів)",
+                "ОПС Фаховий молодший бакалавр (на базі 11 класів)",
+                "ОР перший (бакалаврський)",
+                "ОПС Фаховий молодший бакалавр"
+            ],
+            "required": true,
+            "default": "ОПС Фаховий молодший бакалавр (на базі 9 класів)"
+        },
+        "calendar_id": {
+            "type": "string"
+        },
+        "course_number": {
+            "type": "enumeration",
+            "enum": [
+                "курс 1",
+                "курс 2",
+                "курс 3"
+            ],
+            "default": "курс 1",
+            "required": true
+        }
+    }
+}
