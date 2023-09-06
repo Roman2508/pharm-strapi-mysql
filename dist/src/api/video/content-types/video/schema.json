@@ -1,0 +1,31 @@
+{
+    "kind": "collectionType",
+    "collectionName": "videos",
+    "info": {
+        "singularName": "video",
+        "pluralName": "videos",
+        "displayName": "Video"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "video_poster": {
+            "allowedTypes": [
+                "images"
+            ],
+            "type": "media",
+            "multiple": false,
+            "required": true
+        },
+        "video_url": {
+            "type": "string",
+            "required": true
+        }
+    }
+}
