@@ -7,17 +7,21 @@
   },
   "options": {},
   "attributes": {
-    "Partners": {
-      "type": "component",
-      "repeatable": true,
-      "component": "page-blocks.partner",
-      "required": true
-    },
     "component_type": {
       "type": "string",
       "default": "partners",
       "required": true,
       "unique": false
+    },
+    "partners": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::partner.partner"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Каталог партнерів"
     }
   }
 }

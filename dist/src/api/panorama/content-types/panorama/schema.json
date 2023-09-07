@@ -1,0 +1,37 @@
+{
+    "kind": "collectionType",
+    "collectionName": "panoramas",
+    "info": {
+        "singularName": "panorama",
+        "pluralName": "panoramas",
+        "displayName": "Panorama",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "link": {
+            "type": "string",
+            "required": true
+        },
+        "poster": {
+            "type": "media",
+            "multiple": false,
+            "required": true,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "weight": {
+            "type": "integer",
+            "required": true,
+            "default": 1
+        }
+    }
+}

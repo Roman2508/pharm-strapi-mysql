@@ -11,12 +11,6 @@
       "type": "string",
       "required": true
     },
-    "Panorams": {
-      "type": "component",
-      "repeatable": true,
-      "component": "page-blocks.panorama",
-      "required": true
-    },
     "withBackground": {
       "type": "boolean",
       "default": true,
@@ -27,6 +21,11 @@
       "default": "panoramas",
       "required": true,
       "unique": false
+    },
+    "panoramas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::panorama.panorama"
     }
   }
 }
