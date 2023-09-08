@@ -49,7 +49,8 @@
         "page-blocks.photos-gallery",
         "page-blocks.two-column-with-image",
         "page-blocks.person",
-        "page-blocks.page-cards"
+        "page-blocks.page-cards",
+        "page-blocks.full-size-person"
       ]
     },
     "page_url": {
@@ -71,7 +72,8 @@
         "page-blocks.person",
         "page-blocks.photos-gallery",
         "page-blocks.two-column-with-image",
-        "page-blocks.page-cards"
+        "page-blocks.page-cards",
+        "page-blocks.full-size-person"
       ]
     },
     "right_sidebar": {
@@ -87,7 +89,8 @@
         "page-blocks.person",
         "page-blocks.photos-gallery",
         "page-blocks.two-column-with-image",
-        "page-blocks.page-cards"
+        "page-blocks.page-cards",
+        "page-blocks.full-size-person"
       ]
     },
     "SEO": {

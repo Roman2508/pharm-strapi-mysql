@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_page_blocks_full_size_people",
+  "info": {
+    "displayName": "FullSizePerson",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "richtext",
+      "required": true
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "component_type": {
+      "type": "string",
+      "required": true,
+      "default": "full-size-person"
+    }
+  }
+}

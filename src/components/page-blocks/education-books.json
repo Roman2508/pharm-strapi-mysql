@@ -7,10 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "description": {
-      "type": "string",
-      "required": true
-    },
     "main_photo": {
       "type": "media",
       "multiple": false,
@@ -29,6 +25,10 @@
       "default": "education_books",
       "required": true,
       "unique": false
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
     }
   }
 }
