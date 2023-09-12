@@ -1,9 +1,4 @@
 {
-	"latest": "4.14.0-alpha.0",
-<<<<<<< HEAD
-	"lastUpdateCheck": 1694429078044,
-=======
-	"lastUpdateCheck": 1694335456944,
->>>>>>> c1498a23567162d1b7d410c1acbbd4b4e145f3de
-	"lastNotification": 1694080836434
+	"latest": "4.13.4",
+	"lastUpdateCheck": 1694505757670
 }
