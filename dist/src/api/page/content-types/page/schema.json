@@ -28,6 +28,7 @@
             "type": "enumeration",
             "enum": [
                 "col-1-8-3",
+                "col-2-8-2",
                 "col-2-7-3",
                 "col-8-4",
                 "col-9-3",
