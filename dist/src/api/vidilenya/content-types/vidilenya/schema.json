@@ -4,7 +4,8 @@
     "info": {
         "singularName": "vidilenya",
         "pluralName": "vidilenyas",
-        "displayName": "Vidilenya"
+        "displayName": "Vidilenya",
+        "description": ""
     },
     "options": {
         "draftAndPublish": true
@@ -21,11 +22,12 @@
             "required": true
         },
         "main_photo": {
+            "type": "media",
+            "multiple": true,
+            "required": false,
             "allowedTypes": [
                 "images"
-            ],
-            "type": "media",
-            "multiple": false
+            ]
         },
         "layout": {
             "type": "enumeration",
