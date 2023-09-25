@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_ui_home_page_contact_items",
+  "info": {
+    "displayName": "Home Page Contact Item",
+    "icon": "emotionHappy"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "position": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    }
+  }
+}

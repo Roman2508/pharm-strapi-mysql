@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_page_stats",
+  "info": {
+    "singularName": "home-page-stat",
+    "pluralName": "home-page-stats",
+    "displayName": "Home Page Stat",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "max": 4,
+      "min": 4,
+      "required": true,
+      "component": "ui.home-page-stat"
+    }
+  }
+}

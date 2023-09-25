@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_page_contacts",
+  "info": {
+    "singularName": "home-page-contact",
+    "pluralName": "home-page-contacts",
+    "displayName": "Home Page Contact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "Contacts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.home-page-contact-item",
+      "max": 4,
+      "min": 4,
+      "required": true
+    },
+    "frame_url": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
